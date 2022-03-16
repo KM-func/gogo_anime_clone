@@ -1,3 +1,4 @@
+/* ------------------ WEBSITE GENERAL STYLING ------------------ */
 body{
     --background-color: black;
     --main_color: rgb(24, 24, 24);
@@ -24,4 +25,15 @@ body{
 
     background-color: var(--main_color);
     color: white;
+}
+
+/* ------------------ WEBSITE HEADER CSS ------------------ */
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+/* ------------------ WEBSITE BODY CONTAINER CSS ------------------ */
+.website-content-container{
+    display: grid;
 }
