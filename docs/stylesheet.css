@@ -3,6 +3,7 @@ body{
     --background-color: black;
     --main_color: rgb(24, 24, 24);
     --accent_color1: yellow;
+    --accent_color2: white;
 
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
@@ -36,4 +37,28 @@ body{
 /* ------------------ WEBSITE BODY CONTAINER CSS ------------------ */
 .website-content-container{
     display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    column-gap: 1em;
 }
+.section-container{
+    display: grid;    
+    grid-template-rows: auto;
+
+    row-gap: 2em;
+}
+    .cont-section{
+        border: 1px solid var(--accent_color2);
+    }
+
+/* recently-updated CSS section */
+.recently-updated{
+    display: grid;
+    
+}
+    .recently-updated-content{
+        width: 100%;    
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
