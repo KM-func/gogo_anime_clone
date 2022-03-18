@@ -113,5 +113,23 @@ a{
         width: 100%;
         
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
+        .anime-item{
+            width: 80%;
+            text-align: center;
+
+            margin: 0;
+            padding: 0;
+        }
+            .anime-item-poster{
+                width: 100%;
+                object-fit: cover;
+            }
+            .anime-item-details{
+                padding: 1em;
+                font-size: 0.8em;
+            }
+            .anime-item-details a{
+                font-weight: bold;
+            }
