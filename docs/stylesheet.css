@@ -1,7 +1,7 @@
 /* ------------------ WEBSITE GENERAL STYLING ------------------ */
 body{
     --background-color: black;
-    --main_color: rgb(24, 24, 24);
+    --main_color: rgb(27, 27, 27);
     --accent_color1: rgb(233, 195, 25);
     --accent_color2: rgb(168, 168, 168);
     --accent_color3: gray;
@@ -19,11 +19,11 @@ body{
     height: 100%;
 }
 .website-container{
-    width: 60vw;
+    width: 55vw;
 
     height: 100%;
 
-    padding: 0em 2em 2em;
+    padding: 0em 1em 2em;
 
     background-color: var(--main_color);
     color: white;
@@ -77,8 +77,18 @@ a{
         }
             .nav-bar ul li{
                 display: inline-block ;
-                margin: 0em 1.5em 0em;
+                margin: 0em 1em 0em;
             }
+
+.search-bar{
+    background-color: none;
+    border: 1px solid var(--accent_color2);
+    width: 100%;
+}
+    .search-bar input{
+        background-color: none;
+        border: none;
+    }
         
 /* ------------------ WEBSITE BODY CONTAINER CSS ------------------ */
 .website-content-container{
@@ -113,7 +123,7 @@ a{
         }
         .cont-section-inner{
             padding: 1em;
-
+            
         }
 
 /* recently-updated CSS section */
@@ -144,6 +154,35 @@ a{
             .anime-item-details a{
                 font-weight: bold;
             }
-.cont-section-inner p{
-    padding: 0;
+
+/* recently-added CSS section */
+.recently-added{
+
 }
+.recently-added-inner{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+
+    row-gap: 1em;
+    column-gap: 1em;
+}
+    .recently-added-item{
+
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        
+    }
+        .recently-added-item img{
+            width: 75px;
+            height: 75px;
+        }
+        .recently-added-item-description{
+            font-size: 0.8em;
+            line-height: 0.5em;
+        }
+            .genre{
+                color: var(--accent_color2);
+            }
