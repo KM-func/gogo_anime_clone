@@ -99,9 +99,21 @@ a{
         .content-header{
             height: 40px;
             background-color: var(--accent_color1);
+            
+            color: var(--background-color);
+
+            display: flex;
+            align-items: center;
+        }
+        .content-header-img{
+            width: 55px;
+            height: auto;
+
+            float: left;
         }
         .cont-section-inner{
-            padding: 0.5em 1em 0.5em;
+            padding: 1em;
+
         }
 
 /* recently-updated CSS section */
@@ -110,13 +122,12 @@ a{
     
 }
     .recently-updated-content{
-        width: 100%;
-        
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        column-gap: 1em;
     }
         .anime-item{
-            width: 80%;
+            width:calc(100%) ;
             text-align: center;
 
             margin: 0;
@@ -133,3 +144,6 @@ a{
             .anime-item-details a{
                 font-weight: bold;
             }
+.cont-section-inner p{
+    padding: 0;
+}
