@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100%;
+}
+
+body a {
+  text-decoration: none;
+  color: #e9c319;
+}
+
+.header {
+  margin: 0em 2em 2em;
+}
+
+.header .logo {
+  height: 90px;
+  width: auto;
+  margin: 0em 1em 0em;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header .top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: none;
+  -webkit-columns: 2;
+          columns: 2;
+  -webkit-column-gap: 5em;
+          column-gap: 5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .top-bar a {
+  color: #838383;
+  font-size: .8em;
+}
+
+.header .nav-bar {
+  margin: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-columns: 2;
+          columns: 2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.header .nav-bar nav {
+  width: 100%;
+}
+
+.header .nav-bar ul li {
+  margin: 0em 1em 0em;
+}
+
+.header .nav-bar .search-bar {
+  background-color: black;
+  border: 1px solid #a8a8a8;
+  width: 100%;
+}
+
+.header .nav-bar .search-bar input {
+  background-color: transparent;
+  border: none;
+  color: #e9c319;
+  width: 85%;
+  padding: 0.25em 0em  0.25em 0.5em;
+}
+
+.website-container {
+  width: 55vw;
+  height: 100%;
+  padding: 0em 1em 2em;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.website-container .section-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  row-gap: 2em;
+}
+
+.website-container .cont-section {
+  border: 1px solid #a8a8a8;
+}
+
+.website-container .cont-section .header {
+  height: 40px;
+  background-color: #e9c319;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.website-container .cont-section .header img {
+  width: 55px;
+  height: auto;
+  float: left;
+}
+
+.website-container .cont-section .header .cont-section-inner {
+  padding: 1em;
+}
+
+.anime-item {
+  width: calc(100%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.anime-item div a {
+  font-weight: bold;
+}
+
+.anime-item div p {
+  padding: 1em;
+  font-size: 0.8em;
+}
+
+.anime-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=stylesheet.css.map */
