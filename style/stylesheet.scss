@@ -132,35 +132,37 @@ body{
 
 .recently-updated{
     display: grid;
-    
+
     .recently-updated-content{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         column-gap: 1em;
-    }   
-    .anime-item{
-        width:calc(100%) ;
-        text-align: center;
-    
-        margin: 0;
-        padding: 0;
-
-        display: grid;
+        .anime-item{
+            width:calc(100%) ;
+            text-align: center;
         
-        div{
-            padding: 1em;
-            font-size: 0.8em;
-            a{
-                font-weight: bold;
-                margin-top: 1em;
+            margin: 0;
+            padding: 0;
+        
+            display: grid;
+            
+            div{
+                padding: 1em;
+                font-size: 0.8em;
+                a{
+                    font-weight: bold;
+                    margin-top: 1em;
+                }
             }
-        }
-        img{
-            width: 100%;
-            object-fit: cover;
-        }
-    }
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }        
+    }   
+    
 }    
+
 
 .recently-added{
 

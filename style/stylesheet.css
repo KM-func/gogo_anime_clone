@@ -152,7 +152,7 @@ body a {
           column-gap: 1em;
 }
 
-.recently-updated .anime-item {
+.recently-updated .recently-updated-content .anime-item {
   width: calc(100%);
   text-align: center;
   margin: 0;
@@ -161,17 +161,17 @@ body a {
   display: grid;
 }
 
-.recently-updated .anime-item div {
+.recently-updated .recently-updated-content .anime-item div {
   padding: 1em;
   font-size: 0.8em;
 }
 
-.recently-updated .anime-item div a {
+.recently-updated .recently-updated-content .anime-item div a {
   font-weight: bold;
   margin-top: 1em;
 }
 
-.recently-updated .anime-item img {
+.recently-updated .recently-updated-content .anime-item img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
