@@ -1,5 +1,5 @@
 /* ------------------ WEBSITE GENERAL STYLING ------------------ */
-/* body{
+body{
     --background-color: black;
     --main_color: rgb(27, 27, 27);
     --accent_color1: rgb(233, 195, 25);
@@ -33,7 +33,7 @@ a{
     color: var(--accent_color1);
 } */
 /* ------------------ WEBSITE HEADER CSS ------------------ */
-/* .logo{
+.logo{
     height: 100px;
     width: auto;
     margin: 0em 1em 0em;
@@ -78,9 +78,9 @@ a{
             .nav-bar ul li{
                 display: inline-block ;
                 margin: 0em 1em 0em;
-            } */
+            }
 
-/* .search-bar{
+.search-bar{
     background-color: var(--background-color);
     border: 1px solid var(--accent_color2);
     width: 100%;
@@ -96,7 +96,7 @@ a{
         
         padding: 0.25em 0em  0.25em 0.5em;
     }
-         */
+        
 /* ------------------ WEBSITE BODY CONTAINER CSS ------------------ */
 .website-content-container{
     display: grid;
@@ -143,7 +143,7 @@ a{
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         column-gap: 1em;
     }
-        /* .anime-item{
+        .anime-item{
             
         }
             .anime-item-poster{
@@ -156,7 +156,7 @@ a{
             }
             .anime-item-details a{
                 font-weight: bold;
-            } */
+            }
 
 /* recently-added CSS section */
 .recently-added{
