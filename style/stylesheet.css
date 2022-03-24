@@ -116,12 +116,6 @@ body a {
   border: 1px solid #a8a8a8;
 }
 
-.website-container .cont-section img {
-  width: 55px;
-  height: auto;
-  float: left;
-}
-
 .website-container .cont-section .cont-section-inner {
   padding: 1em;
 }
@@ -138,6 +132,12 @@ body a {
           align-items: center;
 }
 
+.website-container .content-header img {
+  width: 55px;
+  height: auto;
+  float: left;
+}
+
 .recently-updated {
   display: -ms-grid;
   display: grid;
@@ -146,10 +146,10 @@ body a {
 .recently-updated .recently-updated-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  -webkit-column-gap: 1em;
-          column-gap: 1em;
+  -ms-grid-columns: (minmax(155px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+  -webkit-column-gap: .8em;
+          column-gap: .8em;
 }
 
 .recently-updated .recently-updated-content .anime-item {
@@ -206,17 +206,17 @@ body a {
      object-fit: cover;
 }
 
-.recently-added .recently-added-item-description {
+.recently-added .recently-added-item div {
   font-size: 0.75em;
   line-height: 0.5em;
 }
 
-.recently-added .genre {
-  color: var(--accent_color2);
+.recently-added .recently-added-item div .recently-added-title {
+  line-height: 2em;
 }
 
-.recently-added .recently-added-title {
-  line-height: 2em;
+.recently-added .recently-added-item div .genre {
+  color: #a8a8a8;
 }
 
 .upcoming-content {

@@ -109,15 +109,10 @@ body{
     }
         .cont-section{
             border: 1px solid $accent_color2;
-
-            img{
-                width: 55px;
-                height: auto;        
-                float: left;
-                }
             .cont-section-inner{
                 padding: 1em;
             }
+            
         }
         .content-header{
             height: 40px;
@@ -127,6 +122,13 @@ body{
 
             display: flex;
             align-items: center;
+            
+            img{
+                width: 55px;
+                height: auto;        
+                float: left;
+                }
+            
         }     
 }
 
@@ -135,8 +137,9 @@ body{
 
     .recently-updated-content{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        column-gap: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+        column-gap: .8em;
+
         .anime-item{
             width:calc(100%) ;
             text-align: center;
@@ -180,24 +183,28 @@ body{
             display: flex;
             align-items: center;
             gap: 1em;
-            
-        }
-            .recently-added-item img{
+            img{
                 width: 95px;
                 height: 95px;
     
                 object-fit: cover;
             }
-            .recently-added-item-description{
+            div{
                 font-size: 0.75em;
                 line-height: 0.5em;
-            }
-                .genre{
-                    color: var(--accent_color2);
-                }
+                
                 .recently-added-title{
                     line-height: 2em;
                 }
+
+                .genre{
+                    color: $accent_color2;
+                }
+            }
+               
+        }
+            
+           
 }
 
 
