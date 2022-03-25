@@ -95,6 +95,10 @@ body a {
   color: white;
 }
 
+.website-container .anime-title {
+  color: #e9c319;
+}
+
 .website-container .website-content-container {
   display: -ms-grid;
   display: grid;
@@ -107,9 +111,10 @@ body a {
 .website-container .section-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  row-gap: 2em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  row-gap: 1.5em;
 }
 
 .website-container .cont-section {
@@ -136,6 +141,14 @@ body a {
   width: 55px;
   height: auto;
   float: left;
+}
+
+.website-container .side-bar {
+  display: -ms-grid;
+  display: grid;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .recently-updated {
@@ -182,8 +195,6 @@ body a {
   display: grid;
   -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
   row-gap: 1em;
   -webkit-column-gap: 1em;
           column-gap: 1em;
@@ -228,5 +239,26 @@ body a {
           column-gap: 1em;
   line-height: 2em;
   font-size: 0.75em;
+}
+
+.anime-charts {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0;
+}
+
+.anime-charts ol {
+  text-indent: .5em;
+}
+
+.anime-charts ol li {
+  color: #e9c319;
+  font-size: 0.8em;
+}
+
+.anime-charts p {
+  color: white;
+  margin-top: 0%;
 }
 /*# sourceMappingURL=stylesheet.css.map */
