@@ -219,11 +219,6 @@ body a {
 
 .recently-added .recently-added-item div {
   font-size: 0.75em;
-  line-height: 0.5em;
-}
-
-.recently-added .recently-added-item div .recently-added-title {
-  line-height: 2em;
 }
 
 .recently-added .recently-added-item div .genre {
