@@ -228,10 +228,11 @@ body{
     height: fit-content;
     padding: 0;
     ol{
+        padding-left: 0;
         text-indent: .5em;
         li{
             color: $accent_color1;
-            font-size: 0.8em;
+            font-size: 0.9em;
         }
     }
     p{

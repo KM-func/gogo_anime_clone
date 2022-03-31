@@ -249,12 +249,14 @@ body a {
 }
 
 .anime-charts ol {
+  padding-left: 0;
+  list-style: none;
   text-indent: .5em;
 }
 
 .anime-charts ol li {
   color: #e9c319;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .anime-charts p {
