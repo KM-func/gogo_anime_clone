@@ -248,19 +248,46 @@ body a {
   padding: 0;
 }
 
-.anime-charts ol {
-  padding-left: 0;
-  list-style: none;
-  text-indent: .5em;
+.anime-charts div ol {
+  padding-left: 1.5em;
+  text-indent: 0em;
 }
 
-.anime-charts ol li {
+.anime-charts div ol li {
   color: #e9c319;
   font-size: 0.9em;
 }
 
-.anime-charts p {
+.anime-charts div p {
   color: white;
   margin-top: 0%;
+}
+
+.ongoing-series {
+  padding: 0em;
+}
+
+.ongoing-series .cont-section-inner .scrollable-ul {
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0em;
+  list-style: none;
+  width: 100%;
+  height: 65vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 0.75em;
+  color: #e9c319;
+}
+
+.genres .cont-section-inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(50px, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(50px, 1fr));
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+  line-height: 2em;
+  font-size: 0.75em;
 }
 /*# sourceMappingURL=stylesheet.css.map */
