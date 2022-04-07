@@ -306,4 +306,31 @@ body a {
 .footer ul li a {
   color: #a8a8a8;
 }
+
+.footer .footer-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-content .back-to-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 3em;
+}
+
+.footer .footer-content .back-to-top a {
+  color: #4b4b4b;
+}
 /*# sourceMappingURL=stylesheet.css.map */
